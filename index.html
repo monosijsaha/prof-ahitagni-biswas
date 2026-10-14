@@ -1,0 +1,2194 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Prof. (Dr.) Ahitagni Biswas | Professor of Radiation Oncology, AIIMS New Delhi</title>
+  <meta name="description" content="Official academic and clinical portfolio of Prof. (Dr.) Ahitagni Biswas — MD, DNB, ECMO, FRCR (UK), Professor (Full) of Radiation Oncology at All India Institute of Medical Sciences (AIIMS), New Delhi. Over 20 years of experience in Head & Neck, Neuro-Oncology, Paediatric, and Haematolymphoid Radiation Oncology." />
+  <style>
+    :root {
+      --bg-primary: #F8FAFC;
+      --bg-secondary: #FFFFFF;
+      --bg-tertiary: #F1F5F9;
+      --bg-glass: rgba(255, 255, 255, 0.86);
+      --text-primary: #0F172A;
+      --text-secondary: #334155;
+      --text-muted: #64748B;
+      --accent-primary: #0D9488;
+      --accent-primary-hover: #0F766E;
+      --accent-secondary: #1E3A8A;
+      --accent-Gold: #B45309;
+      --accent-soft: #CCFBF1;
+      --accent-indigo-soft: #DBEAFE;
+      --border-color: #E2E8F0;
+      --border-strong: #CBD5E1;
+      --shadow-sm: 0 1px 3px rgba(15, 23, 42, 0.06);
+      --shadow-md: 0 10px 25px -5px rgba(15, 23, 42, 0.08), 0 4px 10px -2px rgba(15, 23, 42, 0.04);
+      --shadow-lg: 0 20px 40px -12px rgba(15, 23, 42, 0.12);
+      --hero-gradient: radial-gradient(circle at 85% 15%, rgba(13, 148, 136, 0.12) 0%, rgba(30, 58, 138, 0.06) 45%, transparent 70%);
+      --radius-sm: 8px;
+      --radius-md: 14px;
+      --radius-lg: 22px;
+      --font-sans: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+      --font-serif: 'Georgia', 'Times New Roman', serif;
+    }
+
+    [data-theme="dark"] {
+      --bg-primary: #0B1120;
+      --bg-secondary: #111827;
+      --bg-tertiary: #1E293B;
+      --bg-glass: rgba(17, 24, 39, 0.88);
+      --text-primary: #F8FAFC;
+      --text-secondary: #CBD5E1;
+      --text-muted: #94A3B8;
+      --accent-primary: #14B8A6;
+      --accent-primary-hover: #2DD4BF;
+      --accent-secondary: #60A5FA;
+      --accent-Gold: #F59E0B;
+      --accent-soft: rgba(20, 184, 166, 0.16);
+      --accent-indigo-soft: rgba(96, 165, 250, 0.16);
+      --border-color: #1E293B;
+      --border-strong: #334155;
+      --shadow-sm: 0 1px 3px rgba(0, 0, 0, 0.3);
+      --shadow-md: 0 10px 25px -5px rgba(0, 0, 0, 0.45);
+      --shadow-lg: 0 20px 40px -12px rgba(0, 0, 0, 0.6);
+      --hero-gradient: radial-gradient(circle at 85% 15%, rgba(20, 184, 166, 0.15) 0%, rgba(59, 130, 246, 0.08) 45%, transparent 70%);
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    html {
+      scroll-behavior: smooth;
+      font-family: var(--font-sans);
+      background-color: var(--bg-primary);
+      color: var(--text-primary);
+      line-height: 1.6;
+    }
+
+    body {
+      background-color: var(--bg-primary);
+      color: var(--text-primary);
+      overflow-x: hidden;
+      transition: background-color 0.25s ease, color 0.25s ease;
+    }
+
+    a {
+      color: var(--accent-primary);
+      text-decoration: none;
+      transition: color 0.2s ease;
+    }
+
+    a:hover {
+      color: var(--accent-primary-hover);
+    }
+
+    .container {
+      max-width: 1240px;
+      margin: 0 auto;
+      padding: 0 24px;
+    }
+
+    /* Top Institutional Banner */
+    .top-bar {
+      background: linear-gradient(90deg, #0F172A 0%, #1E3A8A 50%, #0F766E 100%);
+      color: #F8FAFC;
+      font-size: 0.82rem;
+      padding: 8px 0;
+      letter-spacing: 0.02em;
+    }
+
+    .top-bar-inner {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 8px;
+    }
+
+    .top-bar-badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      font-weight: 500;
+    }
+
+    .pulse-dot {
+      width: 8px;
+      height: 8px;
+      background-color: #2DD4BF;
+      border-radius: 50%;
+      display: inline-block;
+      box-shadow: 0 0 0 3px rgba(45, 212, 191, 0.25);
+    }
+
+    .top-bar-links {
+      display: flex;
+      gap: 16px;
+      align-items: center;
+    }
+
+    .top-bar-links a {
+      color: #E2E8F0;
+      font-weight: 500;
+      display: inline-flex;
+      align-items: center;
+      gap: 4px;
+    }
+
+    .top-bar-links a:hover {
+      color: #5EEAD4;
+      text-decoration: underline;
+    }
+
+    /* Sticky Navbar */
+    .navbar {
+      position: sticky;
+      top: 0;
+      z-index: 100;
+      background: var(--bg-glass);
+      backdrop-filter: blur(14px);
+      -webkit-backdrop-filter: blur(14px);
+      border-bottom: 1px solid var(--border-color);
+      transition: all 0.25s ease;
+    }
+
+    .navbar-inner {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      height: 74px;
+    }
+
+    .brand {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      color: var(--text-primary);
+    }
+
+    .brand-monogram {
+      width: 44px;
+      height: 44px;
+      border-radius: 12px;
+      background: linear-gradient(135deg, #1E3A8A 0%, #0D9488 100%);
+      color: #FFFFFF;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-weight: 700;
+      font-size: 1.05rem;
+      letter-spacing: 0.04em;
+      box-shadow: 0 4px 12px rgba(13, 148, 136, 0.25);
+      flex-shrink: 0;
+      overflow: hidden;
+    }
+
+    .brand-monogram img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+
+    .brand-text {
+      display: flex;
+      flex-direction: column;
+    }
+
+    .brand-name {
+      font-weight: 700;
+      font-size: 1.05rem;
+      line-height: 1.2;
+      color: var(--text-primary);
+    }
+
+    .brand-sub {
+      font-size: 0.76rem;
+      color: var(--text-muted);
+      font-weight: 500;
+    }
+
+    .nav-links {
+      display: flex;
+      align-items: center;
+      gap: 24px;
+      list-style: none;
+    }
+
+    .nav-links a {
+      color: var(--text-secondary);
+      font-size: 0.9rem;
+      font-weight: 500;
+      padding: 6px 2px;
+      position: relative;
+    }
+
+    .nav-links a:hover,
+    .nav-links a.active {
+      color: var(--accent-primary);
+    }
+
+    .nav-actions {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+
+    .btn-icon {
+      width: 40px;
+      height: 40px;
+      border-radius: 10px;
+      border: 1px solid var(--border-color);
+      background: var(--bg-secondary);
+      color: var(--text-primary);
+      cursor: pointer;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      transition: all 0.2s ease;
+    }
+
+    .btn-icon:hover {
+      border-color: var(--accent-primary);
+      color: var(--accent-primary);
+      transform: translateY(-1px);
+    }
+
+    .btn {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      gap: 8px;
+      padding: 10px 18px;
+      border-radius: 10px;
+      font-weight: 600;
+      font-size: 0.9rem;
+      cursor: pointer;
+      transition: all 0.2s ease;
+      border: none;
+      text-decoration: none;
+    }
+
+    .btn-primary {
+      background: linear-gradient(135deg, #0D9488 0%, #0F766E 100%);
+      color: #FFFFFF !important;
+      box-shadow: 0 4px 14px rgba(13, 148, 136, 0.3);
+    }
+
+    .btn-primary:hover {
+      transform: translateY(-1px);
+      box-shadow: 0 6px 20px rgba(13, 148, 136, 0.4);
+    }
+
+    .btn-outline {
+      background: var(--bg-secondary);
+      color: var(--text-primary) !important;
+      border: 1px solid var(--border-strong);
+    }
+
+    .btn-outline:hover {
+      border-color: var(--accent-primary);
+      color: var(--accent-primary) !important;
+      transform: translateY(-1px);
+    }
+
+    /* Hero Section */
+    .hero {
+      position: relative;
+      padding: 64px 0 56px;
+      background-image: var(--hero-gradient);
+      border-bottom: 1px solid var(--border-color);
+      overflow: hidden;
+    }
+
+    .hero-grid {
+      display: grid;
+      grid-template-columns: 1.3fr 1fr;
+      gap: 44px;
+      align-items: center;
+    }
+
+    .role-Clarification-banner {
+      display: inline-flex;
+      align-items: center;
+      gap: 10px;
+      padding: 7px 14px;
+      background: var(--accent-soft);
+      color: var(--accent-primary);
+      border: 1px solid rgba(13, 148, 136, 0.3);
+      border-radius: 999px;
+      font-size: 0.82rem;
+      font-weight: 600;
+      margin-bottom: 18px;
+    }
+
+    .hero-title {
+      font-size: clamp(2.1rem, 3.6vw, 3.1rem);
+      font-weight: 800;
+      line-height: 1.12;
+      letter-spacing: -0.025em;
+      color: var(--text-primary);
+      margin-bottom: 12px;
+    }
+
+    .hero-title span {
+      background: linear-gradient(135deg, var(--accent-secondary) 0%, var(--accent-primary) 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+
+    .credentials-row {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      margin-bottom: 20px;
+    }
+
+    .cred-pill {
+      padding: 5px 12px;
+      border-radius: 8px;
+      font-size: 0.82rem;
+      font-weight: 700;
+      background: var(--bg-secondary);
+      border: 1px solid var(--border-strong);
+      color: var(--text-secondary);
+      box-shadow: var(--shadow-sm);
+    }
+
+    .cred-pill.highlight {
+      background: var(--accent-indigo-soft);
+      border-color: rgba(30, 58, 138, 0.25);
+      color: var(--accent-secondary);
+    }
+
+    .hero-statement {
+      font-size: 1.06rem;
+      color: var(--text-secondary);
+      margin-bottom: 22px;
+      line-height: 1.72;
+      background: var(--bg-secondary);
+      border-left: 4px solid var(--accent-primary);
+      padding: 16px 20px;
+      border-radius: 0 var(--radius-md) var(--radius-md) 0;
+      box-shadow: var(--shadow-sm);
+    }
+
+    .non-surgical-callout {
+      display: flex;
+      align-items: flex-start;
+      gap: 12px;
+      padding: 12px 16px;
+      background: var(--bg-tertiary);
+      border: 1px solid var(--border-color);
+      border-radius: var(--radius-sm);
+      margin-bottom: 24px;
+      font-size: 0.88rem;
+      color: var(--text-secondary);
+    }
+
+    .non-surgical-callout svg {
+      flex-shrink: 0;
+      color: var(--accent-primary);
+      margin-top: 2px;
+    }
+
+    .hero-cta {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 12px;
+      margin-bottom: 32px;
+    }
+
+    .stats-bar {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 14px;
+    }
+
+    .stat-card {
+      background: var(--bg-secondary);
+      border: 1px solid var(--border-color);
+      border-radius: var(--radius-md);
+      padding: 14px 16px;
+      box-shadow: var(--shadow-sm);
+    }
+
+    .stat-num {
+      font-size: 1.45rem;
+      font-weight: 800;
+      color: var(--accent-primary);
+      line-height: 1.15;
+    }
+
+    .stat-label {
+      font-size: 0.76rem;
+      color: var(--text-muted);
+      font-weight: 600;
+      margin-top: 4px;
+    }
+
+    /* Faculty Executive Card with Portrait Photo */
+    .profile-card {
+      background: var(--bg-secondary);
+      border: 1px solid var(--border-color);
+      border-radius: var(--radius-lg);
+      padding: 26px;
+      box-shadow: var(--shadow-lg);
+      position: relative;
+      overflow: hidden;
+    }
+
+    .profile-card::before {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      height: 6px;
+      background: linear-gradient(90deg, #1E3A8A, #0D9488, #2DD4BF);
+    }
+
+    .portrait-showcase {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+      margin-bottom: 18px;
+      padding-bottom: 16px;
+      border-bottom: 1px solid var(--border-color);
+    }
+
+    .portrait-frame-wrap {
+      position: relative;
+      width: 156px;
+      height: 156px;
+      border-radius: 50%;
+      padding: 4px;
+      background: linear-gradient(135deg, #1E3A8A 0%, #0D9488 60%, #2DD4BF 100%);
+      box-shadow: 0 12px 28px rgba(13, 148, 136, 0.28);
+      margin-bottom: 14px;
+    }
+
+    .portrait-img {
+      width: 100%;
+      height: 100%;
+      border-radius: 50%;
+      object-fit: cover;
+      object-position: center top;
+      background-color: #0F172A;
+      border: 3px solid var(--bg-secondary);
+      display: block;
+    }
+
+    .verified-badge-floating {
+      position: absolute;
+      bottom: 4px;
+      right: 4px;
+      width: 34px;
+      height: 34px;
+      border-radius: 50%;
+      background: #0D9488;
+      color: #FFFFFF;
+      border: 3px solid var(--bg-secondary);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+      title: "Verified Faculty Portrait";
+    }
+
+    .portrait-meta h2 {
+      font-size: 1.32rem;
+      font-weight: 800;
+      color: var(--text-primary);
+      line-height: 1.25;
+    }
+
+    .portrait-meta .designation {
+      font-size: 0.92rem;
+      font-weight: 700;
+      color: var(--accent-primary);
+      margin-top: 3px;
+    }
+
+    .portrait-meta .institution {
+      font-size: 0.82rem;
+      color: var(--text-muted);
+      margin-top: 2px;
+    }
+
+    .photo-toolbar {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 8px;
+      margin-top: 12px;
+    }
+
+    .btn-xs {
+      padding: 5px 10px;
+      font-size: 0.74rem;
+      border-radius: 7px;
+      font-weight: 600;
+      cursor: pointer;
+      display: inline-flex;
+      align-items: center;
+      gap: 5px;
+      border: 1px solid var(--border-strong);
+      background: var(--bg-tertiary);
+      color: var(--text-secondary);
+      transition: all 0.2s ease;
+    }
+
+    .btn-xs:hover {
+      border-color: var(--accent-primary);
+      color: var(--accent-primary);
+      background: var(--accent-soft);
+    }
+
+    .profile-details-list {
+      list-style: none;
+      border-bottom: 1px solid var(--border-color);
+      padding: 4px 0 16px;
+      margin-bottom: 16px;
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+    }
+
+    .profile-details-list li {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+      gap: 12px;
+      font-size: 0.84rem;
+    }
+
+    .detail-key {
+      color: var(--text-muted);
+      font-weight: 600;
+      flex-shrink: 0;
+    }
+
+    .detail-val {
+      color: var(--text-primary);
+      font-weight: 600;
+      text-align: right;
+    }
+
+    .external-profiles-title {
+      font-size: 0.75rem;
+      text-transform: uppercase;
+      letter-spacing: 0.06em;
+      color: var(--text-muted);
+      font-weight: 700;
+      margin-bottom: 10px;
+    }
+
+    .external-badges {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 8px;
+    }
+
+    .ext-link-chip {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 9px 12px;
+      border-radius: 10px;
+      background: var(--bg-tertiary);
+      border: 1px solid var(--border-color);
+      color: var(--text-primary);
+      font-size: 0.81rem;
+      font-weight: 600;
+      transition: all 0.2s ease;
+    }
+
+    .ext-link-chip:hover {
+      border-color: var(--accent-primary);
+      background: var(--accent-soft);
+      color: var(--accent-primary);
+      transform: translateY(-1px);
+    }
+
+    /* Section Styling */
+    section {
+      padding: 72px 0;
+      border-bottom: 1px solid var(--border-color);
+    }
+
+    .section-header {
+      max-width: 780px;
+      margin-bottom: 42px;
+    }
+
+    .section-eyebrow {
+      display: inline-block;
+      font-size: 0.78rem;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      color: var(--accent-primary);
+      background: var(--accent-soft);
+      padding: 4px 12px;
+      border-radius: 999px;
+      margin-bottom: 10px;
+    }
+
+    .section-title {
+      font-size: clamp(1.65rem, 2.5vw, 2.25rem);
+      font-weight: 800;
+      letter-spacing: -0.02em;
+      color: var(--text-primary);
+      line-height: 1.2;
+      margin-bottom: 12px;
+    }
+
+    .section-desc {
+      font-size: 1rem;
+      color: var(--text-secondary);
+    }
+
+    /* Interactive Subspecialty Explorer */
+    .subspecialty-tabs {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      margin-bottom: 28px;
+    }
+
+    .sub-tab-btn {
+      padding: 11px 18px;
+      border-radius: 12px;
+      border: 1px solid var(--border-strong);
+      background: var(--bg-secondary);
+      color: var(--text-secondary);
+      font-weight: 600;
+      font-size: 0.9rem;
+      cursor: pointer;
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      transition: all 0.2s ease;
+    }
+
+    .sub-tab-btn:hover {
+      border-color: var(--accent-primary);
+      color: var(--accent-primary);
+    }
+
+    .sub-tab-btn.active {
+      background: linear-gradient(135deg, #1E3A8A 0%, #0D9488 100%);
+      color: #FFFFFF;
+      border-color: transparent;
+      box-shadow: 0 6px 18px rgba(13, 148, 136, 0.28);
+    }
+
+    .subspecialty-panel {
+      background: var(--bg-secondary);
+      border: 1px solid var(--border-color);
+      border-radius: var(--radius-lg);
+      padding: 34px;
+      box-shadow: var(--shadow-md);
+      display: grid;
+      grid-template-columns: 1.25fr 0.75fr;
+      gap: 32px;
+      align-items: stretch;
+    }
+
+    .sub-panel-left h3 {
+      font-size: 1.5rem;
+      font-weight: 800;
+      color: var(--text-primary);
+      margin-bottom: 10px;
+    }
+
+    .sub-panel-left .sub-overview {
+      font-size: 0.98rem;
+      color: var(--text-secondary);
+      margin-bottom: 20px;
+      line-height: 1.68;
+    }
+
+    .protocol-grid {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 14px;
+      margin-bottom: 20px;
+    }
+
+    .protocol-box {
+      background: var(--bg-tertiary);
+      border: 1px solid var(--border-color);
+      border-radius: var(--radius-sm);
+      padding: 14px;
+    }
+
+    .protocol-box h4 {
+      font-size: 0.85rem;
+      font-weight: 700;
+      color: var(--accent-primary);
+      margin-bottom: 4px;
+    }
+
+    .protocol-box p {
+      font-size: 0.83rem;
+      color: var(--text-secondary);
+      line-height: 1.45;
+    }
+
+    .sub-panel-right {
+      background: var(--bg-tertiary);
+      border: 1px solid var(--border-color);
+      border-radius: var(--radius-md);
+      padding: 24px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+    }
+
+    .evidence-card-title {
+      font-size: 0.8rem;
+      text-transform: uppercase;
+      letter-spacing: 0.06em;
+      color: var(--accent-secondary);
+      font-weight: 700;
+      margin-bottom: 10px;
+    }
+
+    .evidence-highlight {
+      font-size: 0.9rem;
+      color: var(--text-primary);
+      font-weight: 600;
+      margin-bottom: 12px;
+      line-height: 1.5;
+    }
+
+    /* Skills & Expertise Matrix */
+    .skills-grid {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 18px;
+    }
+
+    .skill-card {
+      background: var(--bg-secondary);
+      border: 1px solid var(--border-color);
+      border-radius: var(--radius-md);
+      padding: 22px;
+      box-shadow: var(--shadow-sm);
+      transition: all 0.22s ease;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+    }
+
+    .skill-card:hover {
+      transform: translateY(-4px);
+      border-color: var(--accent-primary);
+      box-shadow: var(--shadow-md);
+    }
+
+    .skill-icon {
+      width: 44px;
+      height: 44px;
+      border-radius: 12px;
+      background: var(--accent-soft);
+      color: var(--accent-primary);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-bottom: 14px;
+    }
+
+    .skill-card h3 {
+      font-size: 1.05rem;
+      font-weight: 700;
+      color: var(--text-primary);
+      margin-bottom: 8px;
+    }
+
+    .skill-card p {
+      font-size: 0.85rem;
+      color: var(--text-secondary);
+      line-height: 1.55;
+      margin-bottom: 14px;
+    }
+
+    .skill-tag {
+      display: inline-block;
+      font-size: 0.74rem;
+      font-weight: 700;
+      padding: 4px 10px;
+      border-radius: 6px;
+      background: var(--bg-tertiary);
+      color: var(--text-muted);
+      align-self: flex-start;
+    }
+
+    /* Publications Explorer */
+    .pub-controls {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 16px;
+      margin-bottom: 24px;
+    }
+
+    .pub-filter-pills {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+    }
+
+    .pub-pill {
+      padding: 7px 14px;
+      border-radius: 999px;
+      border: 1px solid var(--border-strong);
+      background: var(--bg-secondary);
+      color: var(--text-secondary);
+      font-size: 0.83rem;
+      font-weight: 600;
+      cursor: pointer;
+      transition: all 0.2s ease;
+    }
+
+    .pub-pill.active,
+    .pub-pill:hover {
+      background: var(--accent-primary);
+      color: #FFFFFF;
+      border-color: var(--accent-primary);
+    }
+
+    .pub-search-wrap {
+      position: relative;
+      min-width: 280px;
+      flex: 1;
+      max-width: 380px;
+    }
+
+    .pub-search-input {
+      width: 100%;
+      padding: 10px 14px 10px 38px;
+      border-radius: 10px;
+      border: 1px solid var(--border-strong);
+      background: var(--bg-secondary);
+      color: var(--text-primary);
+      font-size: 0.88rem;
+      outline: none;
+    }
+
+    .pub-search-input:focus {
+      border-color: var(--accent-primary);
+      box-shadow: 0 0 0 3px var(--accent-soft);
+    }
+
+    .pub-search-icon {
+      position: absolute;
+      left: 12px;
+      top: 50%;
+      transform: translateY(-50%);
+      color: var(--text-muted);
+    }
+
+    .pub-list {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 16px;
+    }
+
+    .pub-card {
+      background: var(--bg-secondary);
+      border: 1px solid var(--border-color);
+      border-radius: var(--radius-md);
+      padding: 22px 24px;
+      box-shadow: var(--shadow-sm);
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+      gap: 20px;
+      transition: all 0.2s ease;
+    }
+
+    .pub-card:hover {
+      border-color: var(--accent-primary);
+      box-shadow: var(--shadow-md);
+    }
+
+    .pub-meta-top {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      margin-bottom: 8px;
+      flex-wrap: wrap;
+    }
+
+    .pub-cat-badge {
+      font-size: 0.74rem;
+      font-weight: 700;
+      padding: 3px 10px;
+      border-radius: 999px;
+      background: var(--accent-soft);
+      color: var(--accent-primary);
+    }
+
+    .pub-journal {
+      font-size: 0.82rem;
+      font-weight: 600;
+      color: var(--text-muted);
+    }
+
+    .pub-title {
+      font-size: 1.05rem;
+      font-weight: 700;
+      color: var(--text-primary);
+      margin-bottom: 8px;
+      line-height: 1.4;
+    }
+
+    .pub-summary {
+      font-size: 0.87rem;
+      color: var(--text-secondary);
+      line-height: 1.55;
+    }
+
+    .pub-actions {
+      display: flex;
+      flex-direction: column;
+      gap: 8px;
+      flex-shrink: 0;
+    }
+
+    .btn-sm {
+      padding: 7px 12px;
+      font-size: 0.78rem;
+      border-radius: 8px;
+      font-weight: 600;
+      white-space: nowrap;
+    }
+
+    /* Credentials & Timeline */
+    .timeline-grid {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 24px;
+    }
+
+    .cred-detail-card {
+      background: var(--bg-secondary);
+      border: 1px solid var(--border-color);
+      border-radius: var(--radius-md);
+      padding: 24px;
+      box-shadow: var(--shadow-sm);
+      display: flex;
+      gap: 18px;
+      align-items: flex-start;
+    }
+
+    .cred-badge-box {
+      min-width: 68px;
+      height: 68px;
+      border-radius: 14px;
+      background: linear-gradient(135deg, #1E3A8A 0%, #0D9488 100%);
+      color: #FFFFFF;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      font-weight: 800;
+      font-size: 0.95rem;
+      padding: 6px;
+      text-align: center;
+      line-height: 1.1;
+    }
+
+    .cred-info h3 {
+      font-size: 1.08rem;
+      font-weight: 700;
+      color: var(--text-primary);
+      margin-bottom: 4px;
+    }
+
+    .cred-info .cred-inst {
+      font-size: 0.86rem;
+      font-weight: 600;
+      color: var(--accent-primary);
+      margin-bottom: 8px;
+    }
+
+    .cred-info p {
+      font-size: 0.86rem;
+      color: var(--text-secondary);
+      line-height: 1.5;
+    }
+
+    /* Consultation & Contact Section */
+    .contact-grid {
+      display: grid;
+      grid-template-columns: 1fr 1.15fr;
+      gap: 32px;
+    }
+
+    .hospital-card {
+      background: var(--bg-secondary);
+      border: 1px solid var(--border-color);
+      border-radius: var(--radius-lg);
+      padding: 30px;
+      box-shadow: var(--shadow-md);
+    }
+
+    .hospital-card h3 {
+      font-size: 1.3rem;
+      font-weight: 800;
+      margin-bottom: 8px;
+      color: var(--text-primary);
+    }
+
+    .info-block-list {
+      display: flex;
+      flex-direction: column;
+      gap: 16px;
+      margin: 22px 0;
+    }
+
+    .info-item {
+      display: flex;
+      gap: 14px;
+      align-items: flex-start;
+    }
+
+    .info-icon {
+      width: 38px;
+      height: 38px;
+      border-radius: 10px;
+      background: var(--accent-soft);
+      color: var(--accent-primary);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-shrink: 0;
+    }
+
+    .info-item h4 {
+      font-size: 0.86rem;
+      font-weight: 700;
+      color: var(--text-primary);
+    }
+
+    .info-item p {
+      font-size: 0.85rem;
+      color: var(--text-secondary);
+    }
+
+    .inquiry-card {
+      background: var(--bg-secondary);
+      border: 1px solid var(--border-color);
+      border-radius: var(--radius-lg);
+      padding: 30px;
+      box-shadow: var(--shadow-md);
+    }
+
+    .form-grid {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 14px;
+      margin-top: 16px;
+    }
+
+    .form-group {
+      display: flex;
+      flex-direction: column;
+      gap: 6px;
+    }
+
+    .form-group.full {
+      grid-column: span 2;
+    }
+
+    .form-group label {
+      font-size: 0.8rem;
+      font-weight: 700;
+      color: var(--text-secondary);
+    }
+
+    .form-control {
+      padding: 10px 14px;
+      border-radius: 10px;
+      border: 1px solid var(--border-strong);
+      background: var(--bg-primary);
+      color: var(--text-primary);
+      font-size: 0.88rem;
+      font-family: inherit;
+    }
+
+    .form-control:focus {
+      outline: none;
+      border-color: var(--accent-primary);
+      box-shadow: 0 0 0 3px var(--accent-soft);
+    }
+
+    /* Footer */
+    footer {
+      background: var(--bg-secondary);
+      padding: 44px 0 32px;
+      font-size: 0.86rem;
+      color: var(--text-muted);
+    }
+
+    .footer-inner {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 20px;
+      padding-bottom: 24px;
+      border-bottom: 1px solid var(--border-color);
+    }
+
+    .footer-links {
+      display: flex;
+      gap: 18px;
+      flex-wrap: wrap;
+    }
+
+    /* Toast notification */
+    .toast {
+      position: fixed;
+      bottom: 24px;
+      right: 24px;
+      background: #0F172A;
+      color: #F8FAFC;
+      padding: 12px 20px;
+      border-radius: 12px;
+      font-size: 0.86rem;
+      font-weight: 600;
+      box-shadow: var(--shadow-lg);
+      border-left: 4px solid #14B8A6;
+      opacity: 0;
+      transform: translateY(16px);
+      pointer-events: none;
+      transition: all 0.25s ease;
+      z-index: 999;
+    }
+
+    .toast.show {
+      opacity: 1;
+      transform: translateY(0);
+    }
+
+    /* Responsive adjustments */
+    @media (max-width: 1024px) {
+      .hero-grid,
+      .subspecialty-panel,
+      .contact-grid {
+        grid-template-columns: 1fr;
+      }
+      .skills-grid {
+        grid-template-columns: repeat(2, 1fr);
+      }
+      .timeline-grid {
+        grid-template-columns: 1fr;
+      }
+    }
+
+    @media (max-width: 720px) {
+      .nav-links {
+        display: none;
+      }
+      .stats-bar,
+      .skills-grid,
+      .protocol-grid,
+      .form-grid {
+        grid-template-columns: 1fr;
+      }
+      .form-group.full {
+        grid-column: span 1;
+      }
+      .pub-card {
+        flex-direction: column;
+      }
+      .pub-actions {
+        flex-direction: row;
+        width: 100%;
+      }
+    }
+
+    @media print {
+      .top-bar, .navbar, .hero-cta, .pub-controls, .inquiry-card, .photo-toolbar {
+        display: none !important;
+      }
+      section {
+        padding: 28px 0;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Top Institutional Verification Bar -->
+  <div class="top-bar">
+    <div class="container top-bar-inner">
+      <div class="top-bar-badge">
+        <span class="pulse-dot"></span>
+        <span>All India Institute of Medical Sciences (AIIMS), New Delhi &bull; Department of Radiation Oncology (BRA-IRCH)</span>
+      </div>
+      <div class="top-bar-links">
+        <a href="https://aiims.edu/index.php/en/2015-01-03-08-11-42/radio_thearpy_faculty" target="_blank" rel="noopener">AIIMS Faculty Directory &nearr;</a>
+        <a href="https://scholar.google.com/citations?user=HUNhkeEAAAAJ&hl=en" target="_blank" rel="noopener">Google Scholar &nearr;</a>
+        <a href="https://www.researchgate.net/profile/Ahitagni-Biswas" target="_blank" rel="noopener">ResearchGate (217+ Papers) &nearr;</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Sticky Navigation -->
+  <header class="navbar">
+    <div class="container navbar-inner">
+      <a href="#top" class="brand">
+        <div class="brand-monogram">
+          <img id="navAvatarImg" src="https://i1.rgstatic.net/ii/profile.image/272734206820406-1442036310835_Q512/Ahitagni-Biswas.jpg" alt="Prof. Ahitagni Biswas" onerror="this.style.display='none'; this.parentElement.textContent='AB';" />
+        </div>
+        <div class="brand-text">
+          <span class="brand-name">Prof. (Dr.) Ahitagni Biswas</span>
+          <span class="brand-sub">MD, DNB, ECMO, FRCR (UK) &bull; Professor, AIIMS New Delhi</span>
+        </div>
+      </a>
+      <ul class="nav-links">
+        <li><a href="#overview">Overview</a></li>
+        <li><a href="#subspecialties">Clinical Focus</a></li>
+        <li><a href="#expertise">Skills &amp; Modalities</a></li>
+        <li><a href="#publications">Publications</a></li>
+        <li><a href="#credentials">Credentials</a></li>
+        <li><a href="#contact">Consultation &amp; AIIMS OPD</a></li>
+      </ul>
+      <div class="nav-actions">
+        <button class="btn-icon" id="themeToggle" title="Toggle Light/Dark Mode" aria-label="Toggle Light/Dark Mode">
+          <svg id="themeIcon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+          </svg>
+        </button>
+        <button class="btn btn-outline" onclick="window.print()">Print Academic CV</button>
+        <a href="#contact" class="btn btn-primary">Academic &amp; Clinical Inquiry</a>
+      </div>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <main id="top">
+    <section class="hero" id="overview">
+      <div class="container hero-grid">
+        <div>
+          <div class="role-Clarification-banner">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2">
+              <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"/>
+            </svg>
+            <span>Professor (Full) of Radiation Oncology &bull; Non-Surgical Clinical Oncologist &bull; 20+ Years Experience</span>
+          </div>
+
+          <h1 class="hero-title">
+            Prof. (Dr.) <span>Ahitagni Biswas</span>
+          </h1>
+
+          <div class="credentials-row">
+            <span class="cred-pill highlight">MD (Radiation Oncology, AIIMS)</span>
+            <span class="cred-pill">DNB</span>
+            <span class="cred-pill highlight">ECMO (European Certified Medical Oncologist)</span>
+            <span class="cred-pill highlight">FRCR (Royal College of Radiologists, UK)</span>
+            <span class="cred-pill">Professor (Full), AIIMS New Delhi</span>
+          </div>
+
+          <blockquote class="hero-statement">
+            &ldquo;I am currently working as a Professor in Radiation Oncology at All India Institute of Medical Sciences New Delhi and my areas of interest include head &amp; neck oncology, neuro-oncology, paediatric and haematolymphoid radiation oncology.&rdquo;
+          </blockquote>
+
+          <div class="non-surgical-callout">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <circle cx="12" cy="12" r="10"></circle>
+              <line x1="12" y1="16" x2="12" y2="12"></line>
+              <line x1="12" y1="8" x2="12.01" y2="8"></line>
+            </svg>
+            <div>
+              <strong>Academic Professor &amp; Non-Surgical Oncology Specialist:</strong> With over two decades of medical and academic leadership, Prof. Biswas specializes in precision radiation therapy, organ-preserving chemoradiotherapy, cancer diagnostics, and systemic chemotherapy—rather than surgical intervention—at India&rsquo;s premier tertiary medical institute.
+            </div>
+          </div>
+
+          <div class="hero-cta">
+            <a href="#subspecialties" class="btn btn-primary">
+              <span>Explore Clinical Subspecialties</span>
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
+            </a>
+            <a href="#publications" class="btn btn-outline">Browse Peer-Reviewed Research (217+)</a>
+          </div>
+
+          <div class="stats-bar">
+            <div class="stat-card">
+              <div class="stat-num">20+ Yrs</div>
+              <div class="stat-label">Clinical &amp; Teaching Experience</div>
+            </div>
+            <div class="stat-card">
+              <div class="stat-num">217+</div>
+              <div class="stat-label">Research Publications</div>
+            </div>
+            <div class="stat-card">
+              <div class="stat-num">4 Core</div>
+              <div class="stat-label">Oncology Subspecialties</div>
+            </div>
+            <div class="stat-card">
+              <div class="stat-num">AIIMS</div>
+              <div class="stat-label">Professor (Full), New Delhi</div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Executive Faculty Profile Card with Verified Portrait Photo -->
+        <aside class="profile-card" aria-label="Faculty Dossier">
+          <div class="portrait-showcase">
+            <div class="portrait-frame-wrap">
+              <img
+                id="professorPortrait"
+                class="portrait-img"
+                src="https://i1.rgstatic.net/ii/profile.image/272734206820406-1442036310835_Q512/Ahitagni-Biswas.jpg"
+                alt="Portrait of Prof. (Dr.) Ahitagni Biswas, Professor of Radiation Oncology at AIIMS New Delhi"
+                onerror="handlePortraitFallback(this)"
+              />
+              <div class="verified-badge-floating" title="Verified Faculty Member, AIIMS New Delhi">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6">
+                  <polyline points="20 6 9 17 4 12"></polyline>
+                </svg>
+              </div>
+            </div>
+
+            <div class="portrait-meta">
+              <h2>Prof. (Dr.) Ahitagni Biswas</h2>
+              <div class="designation">MD, DNB, ECMO, FRCR (UK)</div>
+              <div class="institution">Professor (Full) of Radiation Oncology &bull; AIIMS New Delhi</div>
+            </div>
+
+            <!-- Interactive Photo Customization Toolbar -->
+            <div class="photo-toolbar">
+              <input type="file" id="customPhotoInput" accept="image/*" style="display: none;" onchange="handleCustomPhotoUpload(event)" />
+              <button type="button" class="btn-xs" onclick="document.getElementById('customPhotoInput').click()" title="Upload a personal high-resolution photo from your device">
+                <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="17 8 12 3 7 8"/><line x1="12" y1="3" x2="12" y2="15"/></svg>
+                <span>Change / Upload Photo</span>
+              </button>
+              <button type="button" class="btn-xs" onclick="exportReadyIndexHtml()" title="Download index.html with your current photo permanently embedded for hosting">
+                <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
+                <span>Download Ready index.html</span>
+              </button>
+            </div>
+          </div>
+
+          <ul class="profile-details-list">
+            <li>
+              <span class="detail-key">Academic Rank</span>
+              <span class="detail-val">Professor (Full)</span>
+            </li>
+            <li>
+              <span class="detail-key">Primary Discipline</span>
+              <span class="detail-val">Radiation &amp; Clinical Oncology (Non-Surgical)</span>
+            </li>
+            <li>
+              <span class="detail-key">Department</span>
+              <span class="detail-val">Radiation Oncology, BRA-IRCH, AIIMS</span>
+            </li>
+            <li>
+              <span class="detail-key">Subspecialty Focus</span>
+              <span class="detail-val">Head &amp; Neck, Neuro, Paediatric &amp; Haematolymphoid</span>
+            </li>
+            <li>
+              <span class="detail-key">Clinical Modalities</span>
+              <span class="detail-val">IMRT, IGRT, 3D-CRT, SRT, Chemotherapy</span>
+            </li>
+            <li>
+              <span class="detail-key">Location</span>
+              <span class="detail-val">Ansari Nagar, New Delhi &ndash; 110029</span>
+            </li>
+          </ul>
+
+          <div class="external-profiles-title">Verified Institutional &amp; Academic Profiles</div>
+          <div class="external-badges">
+            <a class="ext-link-chip" href="https://aiims.edu/index.php/en/2015-01-03-08-11-42/radio_thearpy_faculty" target="_blank" rel="noopener">
+              <span>AIIMS Faculty Page</span>
+              <span>&nearr;</span>
+            </a>
+            <a class="ext-link-chip" href="https://scholar.google.com/citations?user=HUNhkeEAAAAJ&hl=en" target="_blank" rel="noopener">
+              <span>Google Scholar</span>
+              <span>&nearr;</span>
+            </a>
+            <a class="ext-link-chip" href="https://www.researchgate.net/profile/Ahitagni-Biswas" target="_blank" rel="noopener">
+              <span>ResearchGate</span>
+              <span>&nearr;</span>
+            </a>
+            <a class="ext-link-chip" href="https://scispace.com/authors/ahitagni-biswas-4unh5os4uf" target="_blank" rel="noopener">
+              <span>SciSpace Corpus</span>
+              <span>&nearr;</span>
+            </a>
+          </div>
+        </aside>
+      </div>
+    </section>
+
+    <!-- Interactive Clinical & Academic Subspecialties Explorer -->
+    <section id="subspecialties">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-eyebrow">Areas of Clinical &amp; Research Interest</span>
+          <h2 class="section-title">Multidisciplinary Non-Surgical Oncology Subspecialties</h2>
+          <p class="section-desc">
+            Select a subspecialty pillar below to explore Prof. Biswas&rsquo;s clinical protocols, conformal radiotherapy techniques, systemic chemotherapy integrations, and landmark AIIMS studies.
+          </p>
+        </div>
+
+        <div class="subspecialty-tabs" role="tablist">
+          <button class="sub-tab-btn active" onclick="selectSubspecialty('hn', this)" role="tab">
+            <span>01. Head &amp; Neck Oncology</span>
+          </button>
+          <button class="sub-tab-btn" onclick="selectSubspecialty('neuro', this)" role="tab">
+            <span>02. Neuro-Oncology</span>
+          </button>
+          <button class="sub-tab-btn" onclick="selectSubspecialty('paed', this)" role="tab">
+            <span>03. Paediatric Radiation Oncology</span>
+          </button>
+          <button class="sub-tab-btn" onclick="selectSubspecialty('haem', this)" role="tab">
+            <span>04. Haematolymphoid Oncology</span>
+          </button>
+          <button class="sub-tab-btn" onclick="selectSubspecialty('lung', this)" role="tab">
+            <span>05. Lung Cancer &amp; Systemic Chemotherapy</span>
+          </button>
+        </div>
+
+        <div class="subspecialty-panel" id="subspecialtyContent">
+          <div class="sub-panel-left">
+            <h3 id="subTitle">Head &amp; Neck Radiation &amp; Clinical Oncology</h3>
+            <p class="sub-overview" id="subOverview">
+              Comprehensive organ-preserving management of squamous cell carcinomas of the oral cavity, oropharynx, larynx, and hypopharynx, as well as rare head and neck extranodal lymphomas and Ewing&rsquo;s sarcoma family of tumors (ESFT/pPNET). Combines high-precision Intensity-Modulated and Image-Guided Radiotherapy (IMRT/IGRT) with concurrent and metronomic systemic chemotherapy to maximize locoregional control while preserving speech, swallowing, and salivary function.
+            </p>
+            <div class="protocol-grid" id="subProtocols">
+              <div class="protocol-box">
+                <h4>Precision Radiotherapy &amp; Organ Preservation</h4>
+                <p>3D-CRT, IMRT, and IGRT sparing critical adjacent structures (parotid glands, optic apparatus, mandible, and spinal cord).</p>
+              </div>
+              <div class="protocol-box">
+                <h4>Platinum-Refractory &amp; Recurrent HNSCC</h4>
+                <p>Phase II clinical evaluation of the oral/ambulatory EMF triplet regimen (Erlotinib, Methotrexate, 5-Fluorouracil) achieving 68.5% disease control.</p>
+              </div>
+              <div class="protocol-box">
+                <h4>Liquid Biopsy &amp; CTC Biomarker Surveillance</h4>
+                <p>Serial Circulating Tumour Cell (CTC) isolation at baseline and 3-month intervals for non-invasive progression monitoring.</p>
+              </div>
+              <div class="protocol-box">
+                <h4>Patient-Reported Quality of Life</h4>
+                <p>Longitudinal symptom and functional assessment utilizing EORTC QLQ-HN43 multi-item scales in advanced head &amp; neck cohorts.</p>
+              </div>
+            </div>
+          </div>
+          <div class="sub-panel-right">
+            <div>
+              <div class="evidence-card-title">Featured AIIMS Clinical Evidence</div>
+              <div class="evidence-highlight" id="subEvidenceTitle">
+                Role of Circulating Tumour Cells (CTCs) &amp; Phase II EMF Regimen in Recurrent/Metastatic HNSCC (ecancermedicalscience, 2022 &amp; 2023)
+              </div>
+              <p style="font-size: 0.85rem; color: var(--text-secondary); margin-bottom: 18px;" id="subEvidenceBody">
+                Demonstrated 88.5% treatment compliance, 45.7% objective response rate, and validated liquid biopsy CTC detection in 80% of platinum-refractory head and neck cancer patients treated at AIIMS New Delhi.
+              </p>
+            </div>
+            <div style="border-top: 1px solid var(--border-color); padding-top: 14px; display: flex; justify-content: space-between; align-items: center;">
+              <span style="font-size: 0.78rem; font-weight: 700; color: var(--text-muted);">VERIFIED PUBLICATION</span>
+              <a id="subEvidenceLink" href="https://ecancer.org/es/journal/article/1578-role-of-circulating-tumour-cells-ctcs-in-recurrent-metastatic-head-and-neck-squamous-cell-carcinoma-hnscc" target="_blank" rel="noopener" class="btn btn-outline btn-sm">Read Study &nearr;</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills & Expertise Matrix -->
+    <section id="expertise">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-eyebrow">Core Competencies &amp; Clinical Modalities</span>
+          <h2 class="section-title">Skills &amp; Expertise in Non-Surgical Cancer Care</h2>
+          <p class="section-desc">
+            Integrating dual accreditations in Radiation Oncology (MD, DNB, FRCR) and Medical Oncology (ECMO) to deliver cohesive diagnostic evaluation, conformal radiation delivery, and systemic chemotherapy.
+          </p>
+        </div>
+
+        <div class="skills-grid">
+          <div class="skill-card">
+            <div>
+              <div class="skill-icon">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><circle cx="12" cy="12" r="4"/><line x1="21.17" y1="8" x2="12" y2="8"/><line x1="3.95" y1="6.06" x2="8.54" y2="14"/><line x1="10.88" y1="21.94" x2="15.46" y2="14"/></svg>
+              </div>
+              <h3>Radiation Therapy</h3>
+              <p>Radical, adjuvant, consolidative, and palliative external-beam and conformal radiation regimens tailored to tumor biology and anatomical constraints.</p>
+            </div>
+            <span class="skill-tag">Core Specialty</span>
+          </div>
+
+          <div class="skill-card">
+            <div>
+              <div class="skill-icon">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2v20M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"/></svg>
+              </div>
+              <h3>Radiotherapy (IMRT / IGRT / SRT)</h3>
+              <p>High-precision 3D Conformal Radiotherapy (3D-CRT), Intensity-Modulated Radiotherapy (IMRT), Image-Guided RT, and Stereotactic Radiation Therapy.</p>
+            </div>
+            <span class="skill-tag">Precision Physics</span>
+          </div>
+
+          <div class="skill-card">
+            <div>
+              <div class="skill-icon">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M19 14c1.49-1.46 3-3.21 3-5.5A5.5 5.5 0 0 0 16.5 3c-1.76 0-3 .5-4.5 2-1.5-1.5-2.74-2-4.5-2A5.5 5.5 0 0 0 2 8.5c0 2.3 1.5 4.05 3 5.5l7 7Z"/></svg>
+              </div>
+              <h3>Cancer Chemotherapy</h3>
+              <p>Concurrent chemoradiation, neoadjuvant/induction protocols, high-dose methotrexate (HDMTX) CNS regimens, and targeted chemoimmunotherapy.</p>
+            </div>
+            <span class="skill-tag">ECMO Certified</span>
+          </div>
+
+          <div class="skill-card">
+            <div>
+              <div class="skill-icon">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M10 2v7.31"/><path d="M14 9.3V1.99"/><path d="M8.5 2h7"/><path d="M14 9.3a6.5 6.5 0 1 1-4 0"/><path d="M5.52 16h12.96"/></svg>
+              </div>
+              <h3>Chemotherapy Protocols</h3>
+              <p>Evidence-based multi-agent systemic regimens including CHOP, R-CHOP, DA-EPOCH-R, VAC/IE, and oral metronomic/targeted therapy in refractory disease.</p>
+            </div>
+            <span class="skill-tag">Systemic Therapy</span>
+          </div>
+
+          <div class="skill-card">
+            <div>
+              <div class="skill-icon">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/><line x1="11" y1="8" x2="11" y2="14"/><line x1="8" y1="11" x2="14" y2="11"/></svg>
+              </div>
+              <h3>Cancer Diagnostics</h3>
+              <p>Comprehensive clinicoradiological staging integrating 99mTc-Methionine Hybrid SPECT/CT, 18F-FDG PET/CT, multiparametric MRI, and molecular biomarkers.</p>
+            </div>
+            <span class="skill-tag">Diagnostic Staging</span>
+          </div>
+
+          <div class="skill-card">
+            <div>
+              <div class="skill-icon">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+              </div>
+              <h3>Tumors (Solid &amp; Rare Entities)</h3>
+              <p>Multidisciplinary Tumor Board management of complex solid tumors, glioblastomas, gliosarcomas, germ cell tumors, and soft-tissue/bone sarcomas.</p>
+            </div>
+            <span class="skill-tag">Tumor Board Lead</span>
+          </div>
+
+          <div class="skill-card">
+            <div>
+              <div class="skill-icon">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 12h-4l-3 9L9 3l-3 9H2"/></svg>
+              </div>
+              <h3>Lung Cancer</h3>
+              <p>Definitive concurrent chemoradiotherapy, stereotactic body radiation therapy (SBRT), image-guided thoracic radiation, and palliative airway control.</p>
+            </div>
+            <span class="skill-tag">Thoracic Oncology</span>
+          </div>
+
+          <div class="skill-card">
+            <div>
+              <div class="skill-icon">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="5"/><line x1="12" y1="1" x2="12" y2="3"/><line x1="12" y1="21" x2="12" y2="23"/><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/><line x1="1" y1="12" x2="3" y2="12"/><line x1="21" y1="12" x2="23" y2="12"/></svg>
+              </div>
+              <h3>Radiation Physics &amp; Radiobiology</h3>
+              <p>Dose-fractionation optimization, hypofractionated regimens, normal tissue complication probability (NTCP) modeling, and AI/ML applications in radiotherapy.</p>
+            </div>
+            <span class="skill-tag">Academic Research</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Peer-Reviewed Publications Showcase -->
+    <section id="publications">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-eyebrow">Scholarly Impact &bull; 217+ Publications</span>
+          <h2 class="section-title">Selected Peer-Reviewed Publications &amp; Clinical Trials</h2>
+          <p class="section-desc">
+            Filter Prof. Biswas&rsquo;s peer-reviewed clinical studies across Head &amp; Neck Oncology, Neuro-Oncology, Paediatric Oncology, and Haematolymphoid Malignancies.
+          </p>
+        </div>
+
+        <div class="pub-controls">
+          <div class="pub-filter-pills">
+            <button class="pub-pill active" onclick="filterPubs('all', this)">All Studies (9)</button>
+            <button class="pub-pill" onclick="filterPubs('Head & Neck', this)">Head &amp; Neck</button>
+            <button class="pub-pill" onclick="filterPubs('Neuro-Oncology', this)">Neuro-Oncology</button>
+            <button class="pub-pill" onclick="filterPubs('Paediatric', this)">Paediatric</button>
+            <button class="pub-pill" onclick="filterPubs('Haematolymphoid', this)">Haematolymphoid</button>
+          </div>
+          <div class="pub-search-wrap">
+            <svg class="pub-search-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg>
+            <input type="text" id="pubSearchInput" class="pub-search-input" placeholder="Search by keyword, regimen, or journal..." oninput="searchPubs()" />
+          </div>
+        </div>
+
+        <div class="pub-list" id="pubListContainer">
+          <!-- Populated dynamically by JS -->
+        </div>
+      </div>
+    </section>
+
+    <!-- Academic Credentials, Fellowships & Institutional Lineage -->
+    <section id="credentials">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-eyebrow">Education &amp; International Accreditations</span>
+          <h2 class="section-title">20+ Years of Academic &amp; Clinical Lineage</h2>
+          <p class="section-desc">
+            Trained at India&rsquo;s foremost medical institutions and accredited by premier oncology boards in the United Kingdom and Europe.
+          </p>
+        </div>
+
+        <div class="timeline-grid">
+          <div class="cred-detail-card">
+            <div class="cred-badge-box">
+              <span>PROF</span>
+              <small style="font-size: 0.65rem; font-weight: 600; opacity: 0.9;">AIIMS</small>
+            </div>
+            <div class="cred-info">
+              <h3>Professor (Full), Department of Radiation Oncology</h3>
+              <div class="cred-inst"><a href="https://aiims.edu/index.php/en/2015-01-03-08-11-42/radio_thearpy_faculty" target="_blank" rel="noopener">All India Institute of Medical Sciences (AIIMS), New Delhi &nearr;</a></div>
+              <p>Leading clinical radiation oncology units, postgraduate MD/DNB teaching, multidisciplinary tumor boards, and translational oncology research at Dr. B.R.A. Institute-Rotary Cancer Hospital (BRA-IRCH).</p>
+            </div>
+          </div>
+
+          <div class="cred-detail-card">
+            <div class="cred-badge-box">
+              <span>FRCR</span>
+              <small style="font-size: 0.65rem; font-weight: 600; opacity: 0.9;">UK</small>
+            </div>
+            <div class="cred-info">
+              <h3>Fellow of the Royal College of Radiologists (FRCR)</h3>
+              <div class="cred-inst"><a href="https://www.researchgate.net/profile/Ahitagni-Biswas" target="_blank" rel="noopener">The Royal College of Radiologists, London, United Kingdom &nearr;</a></div>
+              <p>International fellowship in Clinical Oncology recognizing specialist mastery in both radiation therapy physics/planning and systemic anti-cancer therapy.</p>
+            </div>
+          </div>
+
+          <div class="cred-detail-card">
+            <div class="cred-badge-box">
+              <span>ECMO</span>
+              <small style="font-size: 0.65rem; font-weight: 600; opacity: 0.9;">ESMO</small>
+            </div>
+            <div class="cred-info">
+              <h3>European Certification in Medical Oncology (ECMO)</h3>
+              <div class="cred-inst"><a href="https://www.researchgate.net/profile/Ahitagni-Biswas" target="_blank" rel="noopener">European Society for Medical Oncology (ESMO) &nearr;</a></div>
+              <p>Certified expertise in systemic medical oncology, cancer chemotherapy, targeted biologics, and multimodal solid/haematolymphoid tumor management.</p>
+            </div>
+          </div>
+
+          <div class="cred-detail-card">
+            <div class="cred-badge-box">
+              <span>MD &amp; DNB</span>
+              <small style="font-size: 0.65rem; font-weight: 600; opacity: 0.9;">2006&ndash;09</small>
+            </div>
+            <div class="cred-info">
+              <h3>MD (Radiation Oncology) &amp; Diplomate of National Board (DNB)</h3>
+              <div class="cred-inst"><a href="https://www.medsynapse.app/doctors/dr-biswas-ahitagni-d--29557" target="_blank" rel="noopener">All India Institute of Medical Sciences (AIIMS), New Delhi &amp; NBE &nearr;</a></div>
+              <p>Completed residency and doctoral thesis in Radiation Oncology at AIIMS New Delhi (2006&ndash;2009), alongside DNB certification and academic tenure at PGIMER Chandigarh.</p>
+            </div>
+          </div>
+
+          <div class="cred-detail-card">
+            <div class="cred-badge-box">
+              <span>MBBS</span>
+              <small style="font-size: 0.65rem; font-weight: 600; opacity: 0.9;">2006</small>
+            </div>
+            <div class="cred-info">
+              <h3>Bachelor of Medicine and Bachelor of Surgery (MBBS)</h3>
+              <div class="cred-inst"><a href="https://www.medsynapse.app/doctors/dr-biswas-ahitagni-d--29557" target="_blank" rel="noopener">Medical College, Kolkata &nearr;</a></div>
+              <p>Graduated from Asia&rsquo;s oldest medical college (Medical College and Hospital, Kolkata), establishing the clinical foundation for over 20 years of service in oncology.</p>
+            </div>
+          </div>
+
+          <div class="cred-detail-card">
+            <div class="cred-badge-box">
+              <span>AI/ML</span>
+              <small style="font-size: 0.65rem; font-weight: 600; opacity: 0.9;">RESEARCH</small>
+            </div>
+            <div class="cred-info">
+              <h3>Collaborative Trials &amp; Emerging Oncology Technologies</h3>
+              <div class="cred-inst"><a href="https://www.aiims.edu/index.php/en/component/content/category/221-radio_thearpy" target="_blank" rel="noopener">InPOG &amp; AIIMS Radiotherapy Research Group &nearr;</a></div>
+              <p>Principal and co-investigator in Indian Pediatric Oncology Group (InPOG) studies, molecular glioma stratification (IDH1/MGMT/TERT), and AI/ML applications in radiation oncology.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Consultation, Academic Collaboration & AIIMS Location -->
+    <section id="contact">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-eyebrow">Hospital OPD, Referrals &amp; Academic Desk</span>
+          <h2 class="section-title">Connect with Prof. (Dr.) Ahitagni Biswas</h2>
+          <p class="section-desc">
+            Information for patients seeking radiation oncology or chemotherapy evaluation at AIIMS New Delhi, as well as academic peers, clinical trial collaborators, and oncology fellows.
+          </p>
+        </div>
+
+        <div class="contact-grid">
+          <div class="hospital-card">
+            <h3>Institutional Address &amp; Clinical Unit</h3>
+            <p style="font-size: 0.9rem; color: var(--text-secondary);">
+              All consultations and multidisciplinary tumor board evaluations take place through the Department of Radiation Oncology at AIIMS New Delhi.
+            </p>
+
+            <div class="info-block-list">
+              <div class="info-item">
+                <div class="info-icon">
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>
+                </div>
+                <div>
+                  <h4>Department &amp; Cancer Centre</h4>
+                  <p>Department of Radiation Oncology, Dr. B.R. Ambedkar Institute-Rotary Cancer Hospital (BRA-IRCH), All India Institute of Medical Sciences (AIIMS), Ansari Nagar, New Delhi &ndash; 110029, India</p>
+                </div>
+              </div>
+
+              <div class="info-item">
+                <div class="info-icon">
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect><line x1="16" y1="2" x2="16" y2="6"></line><line x1="8" y1="2" x2="8" y2="6"></line><line x1="3" y1="10" x2="21" y2="10"></line></svg>
+                </div>
+                <div>
+                  <h4>Patient OPD &amp; Multidisciplinary Clinics</h4>
+                  <p>Patients are advised to bring complete histopathology blocks/reports, DICOM imaging (MRI / CT / PET-CT CDs), and prior chemotherapy or radiotherapy discharge summaries for Tumor Board review.</p>
+                </div>
+              </div>
+
+              <div class="info-item">
+                <div class="info-icon">
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
+                </div>
+                <div>
+                  <h4>Academic &amp; Institutional Correspondence</h4>
+                  <p>Verified institutional domain: <strong>@aiims.gov.in</strong> &bull; Published corresponding author address (<a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC7900323/" target="_blank" rel="noopener">PMC7900323</a>): <strong>dr_ahitagni@yahoo.co.in</strong></p>
+                </div>
+              </div>
+            </div>
+
+            <div style="display: flex; gap: 10px; flex-wrap: wrap;">
+              <a href="https://www.aiims.edu/index.php/en/departments-and-centers/221-radio_thearpy" target="_blank" rel="noopener" class="btn btn-outline btn-sm">AIIMS Radiotherapy Dept &nearr;</a>
+              <a href="https://ihwcouncil.org/dr-ahitagni-biswas/" target="_blank" rel="noopener" class="btn btn-outline btn-sm">IHW Council Advocate Profile &nearr;</a>
+            </div>
+          </div>
+
+          <div class="inquiry-card">
+            <h3 style="font-size: 1.3rem; font-weight: 800; margin-bottom: 6px;">Prepare an Academic or Clinical Summary</h3>
+            <p style="font-size: 0.88rem; color: var(--text-secondary);">
+              Generate a structured clinical referral brief or academic collaboration note ready to copy or send via email.
+            </p>
+
+            <form id="inquiryForm" onsubmit="handleInquirySubmit(event)">
+              <div class="form-grid">
+                <div class="form-group">
+                  <label for="inqName">Your Name / Referring Physician</label>
+                  <input type="text" id="inqName" class="form-control" placeholder="e.g., Dr. R. Sharma / Patient Name" required />
+                </div>
+                <div class="form-group">
+                  <label for="inqCategory">Inquiry Category</label>
+                  <select id="inqCategory" class="form-control">
+                    <option value="Head & Neck Oncology Consultation">Head &amp; Neck Oncology Consultation</option>
+                    <option value="Neuro-Oncology / Brain Tumor Board">Neuro-Oncology / Brain Tumor Board</option>
+                    <option value="Paediatric Radiation Oncology">Paediatric Radiation Oncology</option>
+                    <option value="Haematolymphoid / Lymphoma RT">Haematolymphoid / Lymphoma RT</option>
+                    <option value="Lung Cancer / Chemotherapy Protocol">Lung Cancer / Chemotherapy Protocol</option>
+                    <option value="Academic Research / Speaker Invitation">Academic Research / Speaker Invitation</option>
+                  </select>
+                </div>
+                <div class="form-group full">
+                  <label for="inqSummary">Clinical History, Diagnosis, or Academic Topic</label>
+                  <textarea id="inqSummary" rows="4" class="form-control" placeholder="Summarize histopathology, staging (TNM/Ann Arbor), imaging findings, or research collaboration details..." required></textarea>
+                </div>
+                <div class="form-group full" style="display: flex; flex-direction: row; gap: 12px; align-items: center; margin-top: 6px;">
+                  <button type="submit" class="btn btn-primary">Generate Structured Summary &amp; Copy</button>
+                  <a href="mailto:dr_ahitagni@yahoo.co.in?subject=Academic%20/%20Clinical%20Inquiry%20-%20Prof.%20Ahitagni%20Biswas" class="btn btn-outline">Open Email Client</a>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container">
+      <div class="footer-inner">
+        <div>
+          <strong style="color: var(--text-primary);">Prof. (Dr.) Ahitagni Biswas, MD, DNB, ECMO, FRCR (UK)</strong>
+          <p style="margin-top: 4px;">Professor (Full), Department of Radiation Oncology &bull; All India Institute of Medical Sciences (AIIMS), New Delhi</p>
+        </div>
+        <div class="footer-links">
+          <a href="https://aiims.edu/index.php/en/2015-01-03-08-11-42/radio_thearpy_faculty" target="_blank" rel="noopener">AIIMS Faculty</a>
+          <a href="https://scholar.google.com/citations?user=HUNhkeEAAAAJ&hl=en" target="_blank" rel="noopener">Google Scholar</a>
+          <a href="https://www.researchgate.net/profile/Ahitagni-Biswas" target="_blank" rel="noopener">ResearchGate</a>
+          <a href="https://scispace.com/authors/ahitagni-biswas-4unh5os4uf" target="_blank" rel="noopener">SciSpace</a>
+          <a href="https://www.emedevents.com/speaker-profile/ahitagni-biswas" target="_blank" rel="noopener">eMedEvents</a>
+        </div>
+      </div>
+      <div style="margin-top: 20px; display: flex; justify-content: space-between; flex-wrap: wrap; gap: 10px; font-size: 0.78rem;">
+        <span>Clinical &amp; Academic Portfolio &bull; Grounded in verified peer-reviewed oncology literature.</span>
+        <span>Non-Surgical Oncology &bull; Radiotherapy &bull; Cancer Chemotherapy &bull; Cancer Diagnostics</span>
+      </div>
+    </div>
+  </footer>
+
+  <div id="toast" class="toast" role="status" aria-live="polite">Copied to clipboard!</div>
+
+  <script>
+    // Multi-tier Verified Portrait Fallback Chain
+    const fallbackPortraitUrls = [
+      "https://static.emedevents.com/uploads/speakers/200/71229d6c904d2b6c5e7c094ecb5ab190.png",
+      "https://ihwcouncil.org/wp-content/uploads/2025/11/images-1.jpeg",
+      "data:image/svg+xml;utf8," + encodeURIComponent(`
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 240">
+          <defs>
+            <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+              <stop offset="0%" stop-color="#0F172A"/>
+              <stop offset="55%" stop-color="#1E3A8A"/>
+              <stop offset="100%" stop-color="#0D9488"/>
+            </linearGradient>
+          </defs>
+          <rect width="240" height="240" fill="url(#bg)"/>
+          <circle cx="120" cy="88" r="42" fill="#E2E8F0" opacity="0.92"/>
+          <path d="M48 216 C48 158 192 158 192 216 Z" fill="#E2E8F0" opacity="0.92"/>
+          <path d="M92 162 L120 202 L148 162" fill="none" stroke="#0D9488" stroke-width="5"/>
+          <text x="120" y="228" font-family="sans-serif" font-size="13" font-weight="bold" fill="#5EEAD4" text-anchor="middle">PROF. A. BISWAS</text>
+        </svg>
+      `)
+    ];
+    let portraitFallbackIdx = 0;
+
+    function handlePortraitFallback(imgEl) {
+      if (portraitFallbackIdx < fallbackPortraitUrls.length) {
+        imgEl.src = fallbackPortraitUrls[portraitFallbackIdx++];
+      }
+    }
+
+    // Allow uploading a custom personal photo from the user's computer
+    function handleCustomPhotoUpload(event) {
+      const file = event.target.files && event.target.files[0];
+      if (!file) return;
+      const reader = new FileReader();
+      reader.onload = function(e) {
+        const dataUrl = e.target.result;
+        const portraitEl = document.getElementById('professorPortrait');
+        const navImgEl = document.getElementById('navAvatarImg');
+        portraitEl.src = dataUrl;
+        if (navImgEl) {
+          navImgEl.style.display = 'block';
+          navImgEl.src = dataUrl;
+        }
+        try {
+          localStorage.setItem('prof_biswas_custom_portrait', dataUrl);
+        } catch (err) {}
+        showToast("Portrait updated! Click 'Download Ready index.html' to save permanently.");
+      };
+      reader.readAsDataURL(file);
+    }
+
+    // Export self-contained index.html with the active photo embedded
+    function exportReadyIndexHtml() {
+      const clone = document.documentElement.cloneNode(true);
+      const currentSrc = document.getElementById('professorPortrait').src;
+      const clonePortrait = clone.querySelector('#professorPortrait');
+      const cloneNavImg = clone.querySelector('#navAvatarImg');
+      if (clonePortrait) clonePortrait.setAttribute('src', currentSrc);
+      if (cloneNavImg) cloneNavImg.setAttribute('src', currentSrc);
+      const htmlString = "<!DOCTYPE html>\n" + clone.outerHTML;
+      const blob = new Blob([htmlString], { type: "text/html;charset=utf-8" });
+      const url = URL.createObjectURL(blob);
+      const a = document.createElement("a");
+      a.href = url;
+      a.download = "index.html";
+      document.body.appendChild(a);
+      a.click();
+      document.body.removeChild(a);
+      URL.revokeObjectURL(url);
+      showToast("Downloaded index.html with embedded photo!");
+    }
+
+    // Restore saved custom photo if present in localStorage
+    try {
+      const savedPhoto = localStorage.getItem('prof_biswas_custom_portrait');
+      if (savedPhoto) {
+        document.getElementById('professorPortrait').src = savedPhoto;
+        const navImg = document.getElementById('navAvatarImg');
+        if (navImg) navImg.src = savedPhoto;
+      }
+    } catch (e) {}
+
+    // Subspecialty Interactive Data
+    const subspecialties = {
+      hn: {
+        title: "Head & Neck Radiation & Clinical Oncology",
+        overview: "Comprehensive organ-preserving management of squamous cell carcinomas of the oral cavity, oropharynx, larynx, and hypopharynx, as well as rare head and neck extranodal lymphomas and Ewing’s sarcoma family of tumors (ESFT/pPNET). Combines high-precision Intensity-Modulated and Image-Guided Radiotherapy (IMRT/IGRT) with concurrent and metronomic systemic chemotherapy to maximize locoregional control while preserving speech, swallowing, and salivary function.",
+        protocols: [
+          { h: "Precision Radiotherapy & Organ Preservation", p: "3D-CRT, IMRT, and IGRT sparing critical adjacent structures (parotid glands, optic apparatus, mandible, and spinal cord)." },
+          { h: "Platinum-Refractory & Recurrent HNSCC", p: "Phase II clinical evaluation of the oral/ambulatory EMF triplet regimen (Erlotinib, Methotrexate, 5-Fluorouracil) achieving 68.5% disease control." },
+          { h: "Liquid Biopsy & CTC Biomarker Surveillance", p: "Serial Circulating Tumour Cell (CTC) isolation at baseline and 3-month intervals for non-invasive progression monitoring." },
+          { h: "Patient-Reported Quality of Life", p: "Longitudinal symptom and functional assessment utilizing EORTC QLQ-HN43 multi-item scales in advanced head & neck cohorts." }
+        ],
+        evTitle: "Role of Circulating Tumour Cells (CTCs) & Phase II EMF Regimen in Recurrent/Metastatic HNSCC (ecancermedicalscience, 2022 & 2023)",
+        evBody: "Demonstrated 88.5% treatment compliance, 45.7% objective response rate, and validated liquid biopsy CTC detection in 80% of platinum-refractory head and neck cancer patients treated at AIIMS New Delhi.",
+        evLink: "https://ecancer.org/es/journal/article/1578-role-of-circulating-tumour-cells-ctcs-in-recurrent-metastatic-head-and-neck-squamous-cell-carcinoma-hnscc"
+      },
+      neuro: {
+        title: "Neuro-Oncology & Stereotactic Brain Radiotherapy",
+        overview: "Multidisciplinary non-surgical management of primary and recurrent central nervous system malignancies, including glioblastoma, primary gliosarcoma, intracranial germ cell tumors, primary CNS lymphoma (PCNSL), and meningeal hemangiopericytoma. Integrates molecular prognostic stratification with conformal and stereotactic radiation delivery.",
+        protocols: [
+          { h: "Molecular Glioblastoma Stratification", p: "Combinatorial assessment of IDH1 mutation, MGMT promoter methylation, and TERT promoter status to personalize chemoradiation." },
+          { h: "Primary CNS Lymphoma (PCNSL) Protocols", p: "High-dose methotrexate (HDMTX) and rituximab chemoimmunotherapy consolidated with conformal whole-brain RT and tumor-bed boost." },
+          { h: "CNS Hemangiopericytoma Adjuvant Therapy", p: "Conformal radiation (median 60 Gy) and stereotactic radiotherapy significantly reducing recurrence risk alongside ifosfamide/epirubicin chemotherapy." },
+          { h: "Hybrid Functional Neuro-Diagnostics", p: "99mTc-Methionine Hybrid SPECT/CT compared with 18F-FDG PET/CT and contrast-enhanced MRI for detecting recurrent glioma." }
+        ],
+        evTitle: "Primary CNS Lymphoma in India: A 17-Year Experience From AIIMS (JCO Global Oncology / ASCO, 2019)",
+        evBody: "Landmark 17-year institutional study (N=99) showing that adding rituximab to high-dose methotrexate regimens improved complete remission to 81.5% and 2-year overall survival to 61.6%.",
+        evLink: "https://ascopubs.org/doi/abs/10.1200/JGO.18.00124"
+      },
+      paed: {
+        title: "Paediatric & Adolescent Radiation Oncology",
+        overview: "Dedicated conformal radiotherapy and combined-modality protocols for childhood and adolescent malignancies, carefully balancing high cure rates with the protection of developing musculoskeletal, neurocognitive, ocular, and endocrine organs.",
+        protocols: [
+          { h: "Childhood Hodgkin Lymphoma (InPOG-HL)", p: "Multi-institutional Indian Pediatric Oncology Group collaborative studies optimizing risk-adapted chemotherapy and involved-field RT in stages IIB–IV." },
+          { h: "Paediatric Ewing's Sarcoma / pPNET", p: "Combined-modality VAC/IE chemotherapy and 3D conformal radiotherapy (median 55 Gy) achieving durable local control without morbid facial surgery." },
+          { h: "Paediatric Intracranial Germ Cell & PCNSL", p: "Precision 3D-CRT and sequential tumor-bed boosts tailored to pediatric CNS anatomy to preserve long-term neurocognitive outcomes." },
+          { h: "Organ-at-Risk Growth & Vision Sparing", p: "Strict dose-volume constraints for the optic chiasm, cochlea, pituitary-hypothalamic axis, and craniofacial growth plates." }
+        ],
+        evTitle: "Indian Pediatric Oncology Group Study InPOG-HL & Head/Neck Ewing's Sarcoma Series (PubMed / TRO, 2019–2021)",
+        evBody: "Evaluated 262 children and adolescents with advanced Hodgkin lymphoma and established one of the largest single-institution clinical series on head and neck ESFT/pPNET.",
+        evLink: "https://pubmed.ncbi.nlm.nih.gov/34881686/"
+      },
+      haem: {
+        title: "Haematolymphoid Radiation & Chemoimmunotherapy",
+        overview: "Specialized radiation and systemic therapy integration for Hodgkin lymphoma, diffuse large B-cell lymphoma (DLBCL), primary mediastinal B-cell lymphoma, head and neck extranodal non-Hodgkin lymphoma (HNENL), osseous lymphoma, and multiple myeloma with extramedullary plasmacytomas.",
+        protocols: [
+          { h: "Extranodal Non-Hodgkin Lymphoma (HNENL)", p: "Combined multi-agent chemotherapy (CHOP/R-CHOP) and conformal involved-site radiotherapy conferring durable locoregional control." },
+          { h: "Primary Mediastinal B-Cell Lymphoma", p: "Institutional protocols utilizing uniform DA-EPOCH-R chemoimmunotherapy and selective consolidative mediastinal radiotherapy." },
+          { h: "Multiple Myeloma & Extramedullary Disease", p: "Targeted radiation for symptomatic osseous/extramedullary lesions integrated with novel induction agents and autologous stem cell transplantation." },
+          { h: "Unusual Osseous Hodgkin Presentations", p: "Diagnostic differentiation of lymphohematopoietic bone tumors from chronic osteomyelitis with curative combined-modality therapy." }
+        ],
+        evTitle: "Head & Neck Extranodal NHL (N=75) & Primary Mediastinal B-Cell Lymphoma DA-EPOCH-R Experience (PubMed / PMC)",
+        evBody: "Comprehensive clinical characterization and long-term outcome analysis of 75 consecutive HNENL patients and uniform DA-EPOCH-R chemoimmunotherapy cohorts at AIIMS.",
+        evLink: "https://pmc.ncbi.nlm.nih.gov/articles/PMC7900323/"
+      },
+      lung: {
+        title: "Thoracic / Lung Oncology & Multimodality Chemotherapy",
+        overview: "Evidence-based non-surgical management of non-small cell and small cell lung cancers, thoracic lymphomas, and metastatic thoracic disease using image-guided radiation therapy, stereotactic body radiation therapy (SBRT), concurrent platinum-doublet chemoradiation, and palliative hypofractionated radiotherapy.",
+        protocols: [
+          { h: "Concurrent Chemoradiotherapy in Lung Cancer", p: "Integration of modern linear accelerator delivery (IMRT/IGRT) with systemic chemotherapy for locally advanced unresectable thoracic tumors." },
+          { h: "Stereotactic & Conformal Thoracic RT", p: "Respiratory motion management and high-dose precision radiation sparing healthy pulmonary parenchyma, heart, and esophagus." },
+          { h: "Systemic Chemotherapy & Targeted Agents", p: "ECMO-certified administration of cytotoxic chemotherapy, tyrosine kinase inhibitors (TKIs), and maintenance regimens." },
+          { h: "Palliative Hypofractionated Radiotherapy", p: "Rapid-relief hypofractionated radiation schedules for locally advanced thoracic, airway, and superior vena cava (SVC) syndromes." }
+        ],
+        evTitle: "Palliative Hypofractionated Radiation & Systemic Chemotherapy Integration at AIIMS BRA-IRCH",
+        evBody: "Combines advanced linear accelerator technology with comprehensive daycare chemotherapy and multidisciplinary tumor boards at AIIMS New Delhi.",
+        evLink: "https://www.researchgate.net/profile/Ahitagni-Biswas"
+      }
+    };
+
+    function selectSubspecialty(key, btnEl) {
+      document.querySelectorAll('.sub-tab-btn').forEach(b => b.classList.remove('active'));
+      btnEl.classList.add('active');
+      const d = subspecialties[key];
+      document.getElementById('subTitle').textContent = d.title;
+      document.getElementById('subOverview').textContent = d.overview;
+      document.getElementById('subEvidenceTitle').textContent = d.evTitle;
+      document.getElementById('subEvidenceBody').textContent = d.evBody;
+      document.getElementById('subEvidenceLink').href = d.evLink;
+
+      const grid = document.getElementById('subProtocols');
+      grid.innerHTML = d.protocols.map(item => `
+        <div class="protocol-box">
+          <h4>${item.h}</h4>
+          <p>${item.p}</p>
+        </div>
+      `).join('');
+    }
+
+    // Verified Publications Data
+    const publications = [
+      {
+        title: "Role of circulating tumour cells (CTCs) in recurrent/metastatic head and neck squamous cell carcinoma (HNSCC)",
+        journal: "ecancermedicalscience • Jul 2023",
+        category: "Head & Neck",
+        authors: "Baa AK, Sharma A, Bhaskar S, Biswas A, Thakar A, Kumar R, Pramanik R, et al.",
+        summary: "Prospective AIIMS study demonstrating liquid biopsy CTC detection in 80% of recurrent/metastatic HNSCC patients receiving palliative EMF chemotherapy at baseline and 3-month intervals.",
+        url: "https://ecancer.org/es/journal/article/1578-role-of-circulating-tumour-cells-ctcs-in-recurrent-metastatic-head-and-neck-squamous-cell-carcinoma-hnscc"
+      },
+      {
+        title: "A single-arm feasibility phase II study of EMF (erlotinib + methotrexate + 5-fluorouracil) regimen in platinum-refractory recurrent/metastatic HNSCC",
+        journal: "ecancermedicalscience • Sep 2022",
+        category: "Head & Neck",
+        authors: "Baa AK, Sharma A, Bhaskar S, Biswas A, Bharti SJ, Thakar A, Kumar R, Pramanik R.",
+        summary: "Investigator-initiated Phase II trial in platinum-resistant head and neck squamous cell carcinoma showing a 45.7% objective response rate, 68.5% disease control rate, and 88.5% compliance.",
+        url: "https://ecancer.org/en/journal/article/1451-a-single-arm-feasibility-phase-ii-study-of-emf-erlotinib-methotrexate-5-fluorouracil-regimen-in-platinum-refractory-recurrent-metastatic-head-and-neck-squamous-cell-carcinoma-r-m-hnscc"
+      },
+      {
+        title: "Report from the Indian Pediatric Oncology Group (InPOG-HL) Study in Childhood and Adolescent Hodgkin Lymphoma (IIB, III and IV, N = 262)",
+        journal: "PubMed Indexed • Dec 2021",
+        category: "Paediatric",
+        authors: "Indian Pediatric Oncology Group Collaborative (including Biswas A, Chandra J, et al.).",
+        summary: "Multi-center prospective collaborative investigation evaluating treatment outcomes and consolidative radiation therapy in 262 children and adolescents with advanced-stage Hodgkin lymphoma.",
+        url: "https://pubmed.ncbi.nlm.nih.gov/34881686/"
+      },
+      {
+        title: "Primary Mediastinal B Cell Lymphoma: A Limited Institutional Experience with Uniform DAEPOCH-R Protocol",
+        journal: "PubMed Central (PMC7900323) • 2021",
+        category: "Haematolymphoid",
+        authors: "Gogia A, Kumar S, Chellapuram SK, Biswas A, Mallick S.",
+        summary: "Evaluated clinical outcomes of primary mediastinal B-cell lymphoma patients managed at BRA-IRCH, AIIMS New Delhi using a uniform DA-EPOCH-R chemoimmunotherapy protocol.",
+        url: "https://pmc.ncbi.nlm.nih.gov/articles/PMC7900323/"
+      },
+      {
+        title: "Primary CNS Lymphoma in India: A 17-Year Experience From the All India Institute of Medical Sciences",
+        journal: "JCO Global Oncology (ASCO) • Feb 2019",
+        category: "Neuro-Oncology",
+        authors: "Patekar M, Adhikari N, Biswas A, Raina V, Kumar L, Mohanti BK, Gogia A, Sharma A, Sahoo RK, et al.",
+        summary: "Comprehensive 17-year cohort study of 99 PCNSL patients at AIIMS New Delhi demonstrating superior complete remission (81.5%) and 2-year EFS (57.3%) with rituximab + HDMTX regimens.",
+        url: "https://ascopubs.org/doi/abs/10.1200/JGO.18.00124"
+      },
+      {
+        title: "Non-metastatic Ewing's sarcoma family of tumors arising from head and neck: a single institution experience",
+        journal: "Therapeutic Radiology and Oncology • Jun 2019",
+        category: "Head & Neck",
+        authors: "Biswas A, et al. (Department of Radiotherapy & Oncology, AIIMS New Delhi).",
+        summary: "Second-largest single-institution series worldwide on head & neck ESFT/pPNET (median age 13 years), demonstrating durable control with 3D conformal radiotherapy (median 55 Gy) and VAC/IE chemotherapy.",
+        url: "https://tro.amegroups.org/article/view/5131/html"
+      },
+      {
+        title: "A rare case of paediatric primary central nervous system lymphoma treated with HDMTX and rituximab chemoimmunotherapy and conformal WBRT boost",
+        journal: "Child's Nervous System • Sep 2018",
+        category: "Paediatric",
+        authors: "Biswas A, et al. (AIIMS New Delhi).",
+        summary: "Detailed clinical report demonstrating complete radiological remission in pediatric DLBCL-type PCNSL using 5 cycles of R-MPV followed by 36 Gy WBRT and 9 Gy 3D-CRT boost.",
+        url: "https://pubmed.ncbi.nlm.nih.gov/29744624/"
+      },
+      {
+        title: "Impact of adjuvant therapy on survival in treatment of CNS Hemangiopericytoma",
+        journal: "PubMed Indexed • AIIMS Neuro-Oncology Series",
+        category: "Neuro-Oncology",
+        authors: "Department of Radiation Oncology & Neurosurgery, AIIMS New Delhi (Biswas A, et al.).",
+        summary: "Multivariate analysis of 64 CNS hemangiopericytoma patients confirming that adjuvant radiation therapy (median 60 Gy / SRT) and chemotherapy significantly reduce recurrence risk.",
+        url: "https://pubmed.ncbi.nlm.nih.gov/40953551/"
+      },
+      {
+        title: "Head and neck extra nodal NHL (HNENL)—Treatment Outcome and Pattern of Failure—A Single Institution Experience",
+        journal: "Asian Pacific Journal of Cancer Prevention • 2015",
+        category: "Haematolymphoid",
+        authors: "Biswas A, et al. (AIIMS New Delhi).",
+        summary: "Analysis of 75 consecutive patients with head and neck extranodal non-Hodgkin lymphoma treated over an 11-year period with combined multi-agent chemotherapy and conformal radiotherapy.",
+        url: "https://pubmed.ncbi.nlm.nih.gov/26434827/"
+      }
+    ];
+
+    let activePubCategory = 'all';
+
+    function renderPublications() {
+      const query = (document.getElementById('pubSearchInput').value || '').toLowerCase();
+      const container = document.getElementById('pubListContainer');
+
+      const filtered = publications.filter(p => {
+        const matchesCat = activePubCategory === 'all' || p.category === activePubCategory;
+        const matchesQuery = !query ||
+          p.title.toLowerCase().includes(query) ||
+          p.journal.toLowerCase().includes(query) ||
+          p.summary.toLowerCase().includes(query) ||
+          p.authors.toLowerCase().includes(query);
+        return matchesCat && matchesQuery;
+      });
+
+      if (filtered.length === 0) {
+        container.innerHTML = `<div style="padding: 28px; text-align: center; background: var(--bg-secondary); border-radius: 12px; border: 1px solid var(--border-color); color: var(--text-muted);">No publications match your current filter. Try clearing the search box.</div>`;
+        return;
+      }
+
+      container.innerHTML = filtered.map((p, idx) => `
+        <article class="pub-card">
+          <div>
+            <div class="pub-meta-top">
+              <span class="pub-cat-badge">${p.category}</span>
+              <span class="pub-journal">${p.journal}</span>
+            </div>
+            <h3 class="pub-title"><a href="${p.url}" target="_blank" rel="noopener" style="color: inherit;">${p.title}</a></h3>
+            <div style="font-size: 0.8rem; font-weight: 600; color: var(--text-muted); margin-bottom: 6px;">${p.authors}</div>
+            <p class="pub-summary">${p.summary}</p>
+          </div>
+          <div class="pub-actions">
+            <a href="${p.url}" target="_blank" rel="noopener" class="btn btn-primary btn-sm">View Source &nearr;</a>
+            <button type="button" class="btn btn-outline btn-sm" onclick="copyCitation(${idx})">Copy Citation</button>
+          </div>
+        </article>
+      `).join('');
+    }
+
+    function filterPubs(cat, btnEl) {
+      activePubCategory = cat;
+      document.querySelectorAll('.pub-pill').forEach(b => b.classList.remove('active'));
+      btnEl.classList.add('active');
+      renderPublications();
+    }
+
+    function searchPubs() {
+      renderPublications();
+    }
+
+    function showToast(msg) {
+      const t = document.getElementById('toast');
+      t.textContent = msg;
+      t.classList.add('show');
+      setTimeout(() => t.classList.remove('show'), 2800);
+    }
+
+    function copyCitation(idx) {
+      const p = publications[idx];
+      const text = `${p.authors} "${p.title}." ${p.journal}. URL: ${p.url}`;
+      if (navigator.clipboard) {
+        navigator.clipboard.writeText(text);
+      }
+      showToast("Citation copied to clipboard!");
+    }
+
+    function handleInquirySubmit(e) {
+      e.preventDefault();
+      const name = document.getElementById('inqName').value;
+      const cat = document.getElementById('inqCategory').value;
+      const sum = document.getElementById('inqSummary').value;
+      const formatted = `To: Prof. (Dr.) Ahitagni Biswas, MD, DNB, ECMO, FRCR (UK)
+Department of Radiation Oncology, BRA-IRCH, AIIMS New Delhi
+From: ${name}
+Subject: ${cat}
+
+Summary:
+${sum}`;
+      if (navigator.clipboard) {
+        navigator.clipboard.writeText(formatted);
+      }
+      showToast("Structured inquiry copied to clipboard!");
+    }
+
+    // Theme Toggle
+    const themeToggleBtn = document.getElementById('themeToggle');
+    themeToggleBtn.addEventListener('click', () => {
+      const htmlEl = document.documentElement;
+      const current = htmlEl.getAttribute('data-theme');
+      const next = current === 'dark' ? 'light' : 'dark';
+      htmlEl.setAttribute('data-theme', next);
+      showToast(`Switched to ${next.charAt(0).toUpperCase() + next.slice(1)} Mode`);
+    });
+
+    // Initial render
+    renderPublications();
+  </script>
+</body>
+</html>
